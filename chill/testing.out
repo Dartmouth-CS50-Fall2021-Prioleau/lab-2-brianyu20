@@ -1,0 +1,54 @@
+#!/bin/bash
+# Brian Yu
+# 09/25/21
+# Purpose: ----
+
+# zero arguments
+./chill  
+Temp    Wind    Chill 
+____    ____    _____ 
+-10.00	5.00	-22.26
+-10.00	10.00	-28.33
+-10.00	15.00	-32.21
+0.00	5.00	-10.51
+0.00	10.00	-15.93
+0.00	15.00	-19.40
+10.00	5.00	1.24
+10.00	10.00	-3.54
+10.00	15.00	-6.59
+20.00	5.00	12.98
+20.00	10.00	8.85
+20.00	15.00	6.22
+30.00	5.00	24.73
+30.00	10.00	21.25
+30.00	15.00	19.03
+40.00	5.00	36.47
+40.00	10.00	33.64
+40.00	15.00	31.84
+
+# one argument
+./chill 32  
+Temp    Wind    Chill 
+____    ____    _____ 
+32.00	5.00	27.08
+32.00	10.00	23.73
+32.00	15.00	21.59
+
+# two arguments
+./chill 32 7  
+Temp    Wind    Chill 
+____    ____    _____ 
+32.00	7.00	25.50
+
+# one argument out of range
+./chill 100  
+Valid Temperature Range is between -99 and 50
+
+# two arguments, first argument out of range
+./chill 100 7  
+Temperature must be lower than 50
+
+# two arguments, second argument out of range
+./chill 32 0.2
+Velocity must be greater than 0.5 mph
+
