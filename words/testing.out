@@ -1,0 +1,115 @@
+#!/bin/bash
+# Brian Yu
+# 09/27/21
+# Purpose: testing words.c - will test all cases that words.c is supposed to handle.
+#"this is a test", "this is test two", and "This is test three" are the sentences that were put into stdin when the program
+#is reading from stdin.
+
+# zero arguments
+./words
+this
+is
+a
+test
+
+# one argument
+./words lab
+hi
+this
+is
+a
+test
+for
+a
+case
+see
+if
+this
+works
+
+# two argument
+./words lab lab
+hi
+this
+is
+a
+test
+for
+a
+case
+see
+if
+this
+works
+hi
+this
+is
+a
+test
+for
+a
+case
+see
+if
+this
+works
+
+# '-' in between two arguments
+./words lab - lab
+hi
+this
+is
+a
+test
+for
+a
+case
+see
+if
+this
+works
+this
+is
+test
+two
+hi
+this
+is
+a
+test
+for
+a
+case
+see
+if
+this
+works
+
+#incorrect file name as first argument
+./words lac
+Unable to read file 1
+
+#incorrect file name as second argument
+./words lab lac
+Unable to read file 2
+hi
+this
+is
+a
+test
+for
+a
+case
+see
+if
+this
+works
+
+#incorrect file name after dash
+./words - lac
+Unable to read file 2
+this
+is
+test
+three
+
