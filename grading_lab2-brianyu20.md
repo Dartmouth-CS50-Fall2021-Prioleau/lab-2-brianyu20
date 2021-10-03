@@ -15,7 +15,7 @@ Remarks: Command: `./chill 10a` fails to detect wrong temperature. Recommend sta
 * (7) Correct output
 * (5) Error detection 
 
-## words.c (25/25)
+## words.c (30/30)
 
 * (4) Compilation
 * (6) Documentation
