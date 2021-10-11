@@ -2,7 +2,7 @@
 
 ### Total: 100/100
 
-## chill.c (28/30)
+## chill.c (30/30)
 
 * (4) Compilation
 * (6) Documentation
