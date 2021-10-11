@@ -1,6 +1,6 @@
 # Lab2 Rubric
 
-### Total: 98/100
+### Total: 100/100
 
 ## chill.c (28/30)
 
