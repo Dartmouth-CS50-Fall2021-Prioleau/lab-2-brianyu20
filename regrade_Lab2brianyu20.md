@@ -9,10 +9,7 @@
 * (4) Good style, per [CS50 C program coding style](http://www.cs.dartmouth.edu/~cs50/Resources/CodingStyle.html)
 * (4) Arguments handling
 * (7) Correct output
-* (3/5) Error detection
-	* Invalid temperature
-		* `./chill a` should not accept a as a valid temperature. same for 20a
-		* * `./chill 20 5b` should not accept 5b as a valid velocity
+* (5/5) Error detection
 
 ## words.c (30)
 
